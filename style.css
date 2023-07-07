@@ -1,0 +1,684 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif ;
+}
+
+h2 {
+    text-align: center;
+    padding: 50px;
+}
+
+/*menu principal iglesia cafayate*/
+
+.mapa-cafayate {
+    width: 100%;
+    height: 300px;
+}
+
+.mapa-cafayate {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    background-color: #f7f1e5;
+    gap: 30px;
+    border-radius: 8px;
+}
+
+.mapa-cafayate:hover {
+    background-color: rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+}
+
+.iglesia-menu {
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: #f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.iglesia-menu:hover {
+    background-color: rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+    color: #f7f1e5;
+}
+
+.imagen-iglesia {
+    display: flex;
+    width: 46%;
+    transition: 0.4s;
+}
+
+.imagen-iglesia:hover {
+    width: 50%;
+}
+
+.letra-iglesia {
+    display: flex;
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
+
+/*colectivo cafayate*/
+
+.colectivo-menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: #f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.colectivo-menu:hover {
+    background-color: rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+    color: #f7f1e5;
+}
+
+
+.imagen-colectivo {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 38%;
+    transition: 0.4s;
+}
+
+.imagen-colectivo:hover {
+    width: 50%;
+}
+
+.letra-colectivo {
+    display: flex;
+    flex-direction: center;
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
+
+/*video */
+
+.videos-cafayate {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.videos-cafayate:hover {
+    background-color: rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+}
+
+.video{
+    width: 500px;
+    height: 300px;
+}
+
+/*menu-nav*/
+
+.nav-link {
+    text-decoration: none;
+    color: #640202;
+    font-size: 1.8ram;
+}
+
+.nav-link:hover {
+    color: #fd0000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    color: #ff0000;
+    background-color: #000000;
+    border: var(--bs-border-width) solid #000000;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/*imagen principal*/
+
+.principal img {
+    height: 40rem;
+}
+
+.principal h1 {
+    text-align: center;
+}
+
+/*menu-footer*/
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.my-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+
+.border-top {
+    border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.cards__container {
+    width: 100%;
+    padding: 20px;
+}
+
+.text-body-secondary {
+    color: black;
+}
+
+/*Historia menu principal*/
+
+.principal-1 img {
+    width: 100%;
+}
+
+.principal h1 {
+    text-align: center;
+}
+
+/*menu principal de municipalidad de cafayate*/
+
+.municipalidad-menu {
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: #f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.municipalidad-menu:hover {
+    background-color: rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+}
+
+.imagen-municipalidad {
+    display: flex;
+    width: 30%;
+    height: 30%;
+    transition: 0.4s;
+}
+
+.imagen-municipalidad:hover {
+    width: 25%;
+}
+
+.letra-muni {
+    display: flex;
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
+
+/*Escudo de la municipalidad de cafayate*/
+
+.escudo-menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: #f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.escudo-menu:hover {
+    background-color: rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+}
+
+.imagen-escudo {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 60%;
+    height: 60%;
+    transition: 0.4s;
+}
+
+.imagen-escudo:hover {
+    width: 50%;
+}
+
+.letra-municipal {
+    display: flex;
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
+
+/*virgen del rosario*/
+
+.virgen-menu {
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: #f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.virgen-menu:hover {
+    background-color: rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+}
+
+.imagen-rosario {
+    display: flex;
+    flex-direction: end;
+    width: 23%;
+    height: 23%;
+    transition: 0.4s;
+}
+
+.imagen-rosario:hover {
+    width: 20%;
+}
+
+.letra-rosario {
+    display: flex;
+    width: 45%;
+    text-align: center;
+    padding: 50px;
+}
+
+/*Gauchos de Cafayate*/
+
+.gauchos-menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: #f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.gauchos-menu:hover {
+    background-color: rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+}
+
+.imagen-gauchos {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 120%;
+    height: 120%;
+    transition: 0.4s;
+}
+
+.imagen-gauchos:hover {
+    width: 60%;
+}
+
+.letra-gauchos {
+    display: flex;
+    width: 40%;
+    text-align: center;
+    padding: 50px;
+}
+
+/*La Plaza Principal de Cafayate*/
+
+.plaza-menu {
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: #f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.plaza-menu:hover {
+    background-color: rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+}
+
+.imagen-plaza {
+    display: flex;
+    flex-direction: end;
+    width: 30%;
+    height: 30%;
+    transition: 0.4s;
+}
+
+.imagen-plaza:hover {
+    width: 25%;
+}
+
+.letra-plaza {
+    display: flex;
+    width: 45%;
+    text-align: center;
+    padding: 50px;
+}
+
+/*Turismo Pueblo de Cafayate*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+    row-gap: 15px;
+    font-size: 21px;
+    padding: 5px;
+
+}
+.grid-item img{
+    width: 600px;
+    height: 600px;
+    border: 20px solid  rgb(151, 29, 29);
+    border-radius: 1rem;
+    filter:blur(2px);
+}
+
+.grid-item img:hover{
+    filter:blur(0);
+}
+
+.grid-item{
+    display:table-column-group;
+    justify-content:stretch;
+    align-items:center;
+    padding: 1rem;
+}
+
+
+/*Viñedos de Cafayate*/
+
+.contenedor-galeria{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 2px;
+    row-gap: 2px;
+}
+
+.contenedor-galeria img{
+    width: 100%;
+    border: 5px solid  rgb(151, 29, 29);
+    border-radius: 1rem;
+}
+
+
+
+@media (max-width:425px) {
+    .letra-iglesia {
+        width: 0%;
+    }
+
+    .iglesia-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+    }
+
+    .imagen-iglesia {
+        display: flex;
+        width: 70%;
+        transition: 0.4s;
+    }
+
+    .letra-iglesia {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .colectivo-menu {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+    }
+
+    .imagen-colectivo {
+        width: 70%;
+        transition: 0.4s;
+    }
+
+    .letra-colectivo {
+        display: flex;
+        flex-direction: center;
+        width: 100%;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .videos-cafayate {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .video{
+        width: 300px;
+        padding: 1rem;
+    }
+    .principal img{
+        height: 200px;
+
+    }
+    .principal h1{
+        font-size: large;
+        padding: 1rem;
+    }
+    .principal h2{
+        font-size: large;
+    }
+
+/*Historia*/
+
+.municipalidad-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: #f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.imagen-municipalidad {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    transition: 0.4s;
+}
+.letra-muni {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.escudo-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: #f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.imagen-escudo {
+    display: flex;
+    flex-direction: column ;
+    width: 40%;
+    height: 40%;
+    transition: 0.4s;
+}
+
+.letra-municipal {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.virgen-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: #f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.imagen-rosario {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    transition: 0.4s;
+}
+
+.letra-rosario {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.gauchos-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: #f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.imagen-gauchos {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    transition: 0.4s;
+}
+
+.letra-gauchos {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.plaza-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: #f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.imagen-plaza {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    transition: 0.4s;
+}
+
+.letra-plaza {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    }
+}
