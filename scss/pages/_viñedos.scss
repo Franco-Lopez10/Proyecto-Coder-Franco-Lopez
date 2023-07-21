@@ -1,0 +1,14 @@
+/*Viñedos de Cafayate*/
+
+.contenedor-galeria {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 2px;
+    row-gap: 2px;
+
+    &-galeria img {
+        width: 100%;
+        border: 5px solid $c-rojo;
+        border-radius: 1rem;
+    }
+}

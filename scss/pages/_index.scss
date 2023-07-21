@@ -1,0 +1,124 @@
+h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+/*menu principal iglesia cafayate*/
+h2 {
+    text-align: center;
+}
+
+.mapa-cafayate {
+    width: 100%;
+    height: 300px;
+}
+
+.mapa-cafayate {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    background-color: $c-blanco;
+    gap: 30px;
+    border-radius: 8px;
+
+    &-cafayate:hover {
+        background-color: $c-rojo;
+        box-shadow: 4px 4px 4px 4px $c-vino;
+    }
+}
+
+.iglesia-menu {
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: $c-blanco;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &-menu:hover {
+        background-color: $c-rojo;
+        box-shadow: 4px 4px 4px 4px $c-vino;
+        color: $c-blanco;
+    }
+}
+
+.imagen-iglesia {
+    display: flex;
+    width: 46%;
+    transition: 0.4s;
+
+    &-iglesia:hover {
+        width: 50%;
+    }
+}
+
+.letra-iglesia {
+    display: flex;
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
+
+/*colectivo cafayate*/
+
+.colectivo-menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: $c-blanco;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &-menu:hover {
+        background-color: $c-rojo;
+        box-shadow: 4px 4px 4px 4px $c-vino;
+        color: $c-blanco;
+    }
+}
+
+.imagen-colectivo {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 38%;
+    transition: 0.4s;
+
+    &-colectivo:hover {
+        width: 50%;
+    }
+}
+
+.letra-colectivo {
+    display: flex;
+    flex-direction: center;
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
+
+/*video */
+
+.videos-cafayate {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+
+    &-cafayate:hover {
+        background-color: $c-rojo;
+        box-shadow: 4px 4px 4px 4px $c-vino;
+    }
+}
+
+.video {
+    width: 500px;
+    height: 300px;
+}

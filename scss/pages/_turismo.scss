@@ -1,0 +1,30 @@
+/*Turismo Pueblo de Cafayate*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+    row-gap: 15px;
+    font-size: 21px;
+    padding: 5px;
+
+}
+
+.grid-item img {
+    width: 600px;
+    height: 600px;
+    border: 20px solid $c-rojo;
+    border-radius: 1rem;
+    filter: blur(2px);
+
+    &-item img:hover {
+        filter: blur(0);
+    }
+}
+
+.grid-item {
+    display: table-column-group;
+    justify-content: stretch;
+    align-items: center;
+    padding: 1rem;
+}

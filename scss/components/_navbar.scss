@@ -1,0 +1,36 @@
+
+/*menu-nav*/
+
+.nav-link {
+    text-decoration: none;
+    color: #640202;
+    font-size: 1.8ram;
+}
+
+.nav-link:hover {
+    color: #fd0000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    color: #ff0000;
+    background-color: #000000;
+    border: var(--bs-border-width) solid #000000;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+
+}

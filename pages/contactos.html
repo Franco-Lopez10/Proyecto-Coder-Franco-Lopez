@@ -19,24 +19,8 @@
 </head>
 
 <body>
-    <!-- el menu de navegacion 
-    <header>
-        <div class="navegacion">
-            <img src="../images/logo-turismo-salta.png" alt="logo de mi pagina">
-            <nav>
 
-                <ul>
-                    <li><a href="../Proyecto-coder-nro1.html">Inicio</a></li>
-                    <li><a href="./historia.html">Historia</a></li>
-                    <li><a href="./turismo.html">Turismo</a></li>
-                    <li><a href="./viñedos.html">Viñedos</a></li>
-                    <li><a href="./contactos.html">Contactos</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-<!-- el menu de navegacion -->
+    <!-- el menu de navegacion -->
     <header id="header-principal">
         <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container-fluid">
@@ -49,11 +33,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="../Proyecto-coder-nro1.html">INICIO</a>
-                        <a class="nav-link" href="./historia.html">HISTORIA</a>
-                        <a class="nav-link" href="./turismo.html">TURISMO</a>
-                        <a class="nav-link" href="./viñedos.html">VIÑEDOS</a>
-                        <a class="nav-link" href="./contactos.html">CONTACTOS</a>
+                        <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+                        <a class="nav-link" href="../pages/historia.html">HISTORIA</a>
+                        <a class="nav-link" href="../pages/turismo.html">TURISMO</a>
+                        <a class="nav-link" href="../pages/viñedos.html">VIÑEDOS</a>
+                        <a class="nav-link" href="../pages/contactos.html">CONTACTOS</a>
                     </div>
                 </div>
             </div>
@@ -63,8 +47,53 @@
 
     <!--contenido principal de mi html o sitio-->
 
+    <main>
+
+        <h1>CONTACTO</h1>
+
+        <section class="contacto d-flex justify-content-around">
+
+            <div class="p-4">
+                <form class="p-2" action=""></form>
+                <h5>
+                    Nombre *
+                </h5>
+                <input type="text" placeholder="Nombre y Apellido">
+
+                <h5>
+                    Email *
+                </h5>
+                <input type="text" placeholder="Ingrese su mail">
+
+                <h5>
+                    Telefono *
+                </h5>
+                <input type="number" placeholder="Ingrese su numero de Telefono">
+
+                <h5>
+                    Horario *
+                </h5>
+                <input type="text" placeholder="Horario de 10 a 18">
+
+                <h5>Comentario</h5>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+
+                <div class="botonenviar">
+                    <input type="submit" value="Enviar">
+                </div>
+
+                </form>
+            </div>
+
+            <img src="../images/logo-cafayate.jpg" alt="logo cafayate">
+
+        </section>
+
+    </main>
+
     <!-- footer = pie de pagina , donde ira logo,redes sociales o algun texto -->
-    
+
     <footer class="principal-fotter">
         <div class="container">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">

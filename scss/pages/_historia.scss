@@ -1,0 +1,203 @@
+/*Historia menu principal*/
+
+.principal-1 img {
+    width: 100%;
+}
+
+.principal h1 {
+    text-align: center;
+}
+
+/*menu principal de municipalidad de cafayate*/
+
+.municipalidad-menu {
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: $c-blanco;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &-menu:hover {
+        background-color: $c-rojo;
+        box-shadow: 4px 4px 4px 4px $c-vino;
+    }
+}
+
+.imagen-municipalidad {
+    display: flex;
+    width: 30%;
+    height: 30%;
+    transition: 0.4s;
+
+    &-municipalidad:hover {
+        width: 25%;
+    }
+}
+
+.letra-muni {
+    display: flex;
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
+
+/*Escudo de la municipalidad de cafayate*/
+
+.escudo-menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: $c-blanco;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &-menu:hover {
+        background-color: $c-rojo;
+        box-shadow: 4px 4px 4px 4px $c-vino;
+    }
+}
+
+.imagen-escudo {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 60%;
+    height: 60%;
+    transition: 0.4s;
+
+    &-escudo:hover {
+        width: 50%;
+    }
+}
+
+.letra-municipal {
+    display: flex;
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
+
+/*virgen del rosario*/
+
+.virgen-menu {
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: $c-blanco;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &-menu:hover {
+        background-color: $c-rojo;
+        box-shadow: 4px 4px 4px 4px $c-vino;
+    }
+}
+
+.imagen-rosario {
+    display: flex;
+    flex-direction: end;
+    width: 23%;
+    height: 23%;
+    transition: 0.4s;
+
+    &-rosario:hover {
+        width: 20%;
+    }
+}
+
+.letra-rosario {
+    display: flex;
+    width: 45%;
+    text-align: center;
+    padding: 50px;
+}
+
+/*Gauchos de Cafayate*/
+
+.gauchos-menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: $c-blanco;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &-menu:hover {
+        background-color: $c-rojo;
+        box-shadow: 4px 4px 4px 4px $c-vino;
+    }
+}
+
+.imagen-gauchos {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 120%;
+    height: 120%;
+    transition: 0.4s;
+
+    &-gauchos:hover {
+        width: 60%;
+    }
+}
+
+.letra-gauchos {
+    display: flex;
+    width: 40%;
+    text-align: center;
+    padding: 50px;
+}
+
+/*La Plaza Principal de Cafayate*/
+
+.plaza-menu {
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: $c-blanco;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &-menu:hover {
+        background-color: $c-rojo;
+        box-shadow: 4px 4px 4px 4px $c-vino;
+    }
+}
+
+.imagen-plaza {
+    display: flex;
+    flex-direction: end;
+    width: 30%;
+    height: 30%;
+    transition: 0.4s;
+
+    &-plaza:hover {
+        width: 25%;
+    }
+}
+
+.letra-plaza {
+    display: flex;
+    width: 45%;
+    text-align: center;
+    padding: 50px;
+}
