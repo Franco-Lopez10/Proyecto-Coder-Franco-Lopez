@@ -1,5 +1,12 @@
 /*Viñedos de Cafayate*/
 
+.letras-bodegas {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
 .contenedor-galeria {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -11,4 +18,18 @@
         border: 5px solid $c-rojo;
         border-radius: 1rem;
     }
+}
+
+.grid-galeria {
+    display: table-column-group;
+    justify-content: stretch;
+    align-items: center;
+    padding: 1rem;
+}
+
+.letras-viñedos {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
 }

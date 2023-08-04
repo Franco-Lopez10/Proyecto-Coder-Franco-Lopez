@@ -10,6 +10,13 @@
 
 /*menu principal de municipalidad de cafayate*/
 
+.letra-cafayate{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
 .municipalidad-menu {
     display: flex;
     flex-direction: end;
@@ -69,12 +76,12 @@
 .imagen-escudo {
     display: flex;
     flex-direction: row-reverse;
-    width: 60%;
-    height: 60%;
+    width: 20%;
+    height: 20%;
     transition: 0.4s;
 
     &-escudo:hover {
-        width: 50%;
+        width: 25%;
     }
 }
 
@@ -108,8 +115,8 @@
 .imagen-rosario {
     display: flex;
     flex-direction: end;
-    width: 23%;
-    height: 23%;
+    width: 20%;
+    height: 20%;
     transition: 0.4s;
 
     &-rosario:hover {

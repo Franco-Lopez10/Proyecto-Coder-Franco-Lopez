@@ -74,7 +74,7 @@ h2 {
 
 .colectivo-menu {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction:row-reverse;
     justify-content: center;
     align-items: center;
     padding: 9px;
@@ -228,6 +228,13 @@ h2 {
 
 /*menu principal de municipalidad de cafayate*/
 
+.letra-cafayate{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
 .municipalidad-menu {
     display: flex;
     flex-direction: end;
@@ -289,13 +296,13 @@ h2 {
 .imagen-escudo {
     display: flex;
     flex-direction: row-reverse;
-    width: 60%;
-    height: 60%;
+    width: 20%;
+    height: 20%;
     transition: 0.4s;
 }
 
 .imagen-escudo:hover {
-    width: 50%;
+    width: 25%;
 }
 
 .letra-municipal {
@@ -329,8 +336,8 @@ h2 {
 .imagen-rosario {
     display: flex;
     flex-direction: end;
-    width: 23%;
-    height: 23%;
+    width: 20%;
+    height: 20%;
     transition: 0.4s;
 }
 
@@ -375,7 +382,7 @@ h2 {
 }
 
 .imagen-gauchos:hover {
-    width: 60%;
+    width: 25%;
 }
 
 .letra-gauchos {
@@ -427,6 +434,18 @@ h2 {
 
 /*Turismo Pueblo de Cafayate*/
 
+.paseos-cafayate{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.paseos-cafayate:hover{
+    background-image: linear-gradient(120deg,rgb(77, 23, 23), #6fbdc7  );
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+    color: #f7f1e5;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: auto auto;
@@ -434,7 +453,11 @@ h2 {
     row-gap: 15px;
     font-size: 21px;
     padding: 5px;
-
+}
+.grid-container:hover{
+    background-image: linear-gradient(120deg,rgb(77, 23, 23), #6fbdc7  );
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+    color: #f7f1e5;
 }
 .grid-item img{
     width: 600px;
@@ -458,19 +481,50 @@ h2 {
 
 /*Viñedos de Cafayate*/
 
-.contenedor-galeria{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 2px;
-    row-gap: 2px;
-}
-
-.contenedor-galeria img{
+.letras-bodegas{
+    display: flex;
     width: 100%;
-    border: 5px solid  rgb(151, 29, 29);
-    border-radius: 1rem;
+    text-align: center;
+    padding: 10px;
 }
 
+.grid-galerias{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 10px;
+    font-size: 21px;
+    padding: 5px;
+}
+.grid-galerias:hover{
+    background-image: linear-gradient(120deg,rgb(77, 23, 23), #6fbdc7  );
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+    color: #f7f1e5;
+}
+.grid-galeria img{
+    width: 600px;
+    height: 600px;
+    border: 10px solid  rgb(151, 29, 29);
+    border-radius: 1rem;
+    filter:blur(2px);
+}
+
+.grid-galeria img:hover{
+    filter:blur(0);
+}
+
+.grid-galeria{
+    display:table-column-group;
+    justify-content:stretch;
+    align-items:center;
+    padding: 1rem;
+}
+.letras-viñedos{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
 /*Contacto*/
 
 .contacto { 
@@ -728,11 +782,35 @@ textarea {
 
     /*Viñedos*/
     
-    .letra-bodegas {
+    .letras-bodegas {
         display: flex;
         width: 100%;
         text-align: center;
-        padding: 50px;
+        padding: 30px;
+    }
+    .letras-viñedos{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+    .grid-galerias{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 10px;
+        transition: 0.4s;
+
+    }
+    .grid-galeria img{
+        width: 130%;
+        height: 130%;
+        border: 5px solid  rgb(151, 29, 29);
+        border-radius: 1rem;
     }
 
     .videos-cafayate {
@@ -775,6 +853,12 @@ textarea {
 }
 
 @media (max-width:425px) {
+
+    .mapa-cafayate {
+        width: 300px;
+        height: 300px;
+    }
+
     .letra-iglesia {
         width: 0%;
     }
@@ -851,6 +935,25 @@ textarea {
     }
 
 /*Historia*/
+
+.historia-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: #f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+.letra-cafayate{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
 
 .municipalidad-menu {
     display: flex;
@@ -955,7 +1058,7 @@ textarea {
     transition: 0.4s;
 }
 
-.letra-gauchos {
+.letras-gauchos {
     display: flex;
     width: 100%;
     text-align: center;
@@ -1000,24 +1103,48 @@ textarea {
         padding: 9px;
         margin: 9px;
         background-color: #f7f1e5;
-        gap: 30px;
+        gap: 10px;
         transition: 0.4s;
 
     }
     .grid-item img{
-        width: 100%;
-        height: 100%px;
-        border: 10px solid  rgb(151, 29, 29);
+        width: 300px;
+        height: 300px;
+        border: 5px solid  rgb(151, 29, 29);
         border-radius: 1rem;
     }
 
     /*Viñedos*/
     
-    .letra-bodegas {
+    .letras-bodegas {
         display: flex;
         width: 100%;
         text-align: center;
-        padding: 50px;
+        padding: 30px;
+    }
+    .letras-viñedos{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+    .grid-galerias{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 10px;
+        transition: 0.4s;
+ }
+
+    .grid-galeria img{
+        width: 100%;
+        height: 100%;
+        border: 5px solid  rgb(151, 29, 29);
+        border-radius: 1rem;
     }
 
     .videos-cafayate {
@@ -1053,11 +1180,13 @@ textarea {
     }
 
     .img{
-        width: 80px;
-        height: 80%px;
+        width: 60px;
+        height: 60%px;
         border: 10px solid  rgb(151, 29, 29);
         border-radius: 1rem;
     }
 
+    .logo-ruta40{
+        width: 200px;
+    }
 }
-

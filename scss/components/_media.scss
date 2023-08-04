@@ -289,6 +289,12 @@
 /*mobile*/
 
 @media (max-width:425px) {
+
+    .mapa-cafayate {
+        width: 300px;
+        height: 300px;
+    }
+
     .letra-iglesia {
         width: 0%;
     }
@@ -365,6 +371,25 @@
     }
 
 /*Historia*/
+
+.historia-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+    background-color: $c-blanco;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+.letra-cafayate{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
 
 .municipalidad-menu {
     display: flex;
@@ -514,14 +539,14 @@
         padding: 9px;
         margin: 9px;
         background-color: $c-blanco;
-        gap: 30px;
+        gap: 10px;
         transition: 0.4s;
 
     }
     .grid-item img{
-        width: 100%;
-        height: 100%px;
-        border: 10px solid  $c-vino;
+        width: 300px;
+        height: 300px;
+        border: 5px solid  $c-vino;
         border-radius: 1rem;
     }
 
@@ -532,6 +557,30 @@
         width: 100%;
         text-align: center;
         padding: 50px;
+    }
+    .letras-viñedos{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+    .grid-galerias{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: $c-blanco;
+        gap: 10px;
+        transition: 0.4s;
+
+    }
+    .grid-galeria img{
+        width: 100%;
+        height: 100%;
+        border: 5px solid  $c-rojo;
+        border-radius: 1rem;
     }
 
     .videos-cafayate {
